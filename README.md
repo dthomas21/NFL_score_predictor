@@ -1,5 +1,5 @@
 # NFL Final Score Predictor: What Can the 1st Half tell us about the final score?
-Using statistics from the first half of an NFL game, this model predicts the final score of an NFL game. The two use cases are 1) to predict the winner of the game at halftime and 2) to place a bet at halftime. Both use data trained from 1,341 historical games with mulitple features (see below) 
+Using statistics from the first half of an NFL game, this model predicts the final score of an NFL game. The two use cases are 1) to predict the winner of the game at halftime and 2) to place a bet at halftime against the halftime spread. Both use data trained from 1,341 historical games with mulitple features (see below) 
 
 ##### Univeristy of San Francisco MSDS: Intro to Machine Learning Project
 
@@ -13,7 +13,7 @@ NFL Betting Data:
 https://www.kaggle.com/tobycrabtree/nfl-scores-and-betting-data#spreadspoke_scores.csv
 
 ### Model Selection
-The ml_models folder contains notebooks exploring SVM, KNN, Decision Trees, Random Forests, and Linear Regression. Linear Regression and Random Forrest performed significantly better than SVM and KNN and therefore the notebookes have a deeper exploration of hyperparameter tuning. Our best model was a **bagging regressor**, which can be thought of as a random forest of linear regressions. br_final_model_with_metrics.ipynb includes experiements for variable selection, iterative fitting, and grid-searching which ultimately lead to the final model.
+The ml_models folder contains notebooks exploring SVM, KNN, Decision Trees, Random Forests, and Linear Regression. Linear Regression and Random Forrest performed significantly better than SVM and KNN and therefore the notebookes have a deeper exploration of hyperparameter tuning. Our best model was a **bagging regressor**, which can be thought of as a random forest of linear regressions. `br_final_model_with_metrics.ipynb` includes experiements for variable selection, iterative fitting, and grid-searching which ultimately lead to the final model.
 
 ![Alt text](images/RMSE.png?raw=true "Title")
 ![Alt text](images/r_squared.png?raw=true "Title")
