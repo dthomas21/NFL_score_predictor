@@ -19,7 +19,7 @@ The ml_models folder contains notebooks exploring SVM, KNN, Decision Trees, Rand
 ![Alt text](images/r_squared.png?raw=true "Title")
 
 ### Preprocessing Data:
-Ran compile_data.py in terminal with 2 command line inputs: filepath to play by play data and filepath to spread data (e.g. python compile_data.py nfl.csv nflspread.csv) to generate nfl_cleaned.csv (in data folder)
+Ran `compile_data.py` in terminal with 2 command line inputs: filepath to play by play data and filepath to spread data (e.g. `python compile_data.py nfl.csv nflspread.csv`) to generate nfl_cleaned.csv (in data folder)
 *profootballreference.com was also scarped to ensure accuracte statistics (in data folder). 1,341 games matched and used for modeling.
 
 ### Features:
@@ -29,6 +29,7 @@ Ran compile_data.py in terminal with 2 command line inputs: filepath to play by 
 As evidenced by the two graphs above, total points scored by a team and yards per pass attempt have more of a linear relationship than yards per rush attempt. After calculating the p-values of every feature, yards lost due to a sack and fumble percentage were dropped from the model (p-values of .227 and .578 respectively, in images folder).
 
 The following features remain:
+
 Pregame features:
 - Predicted scores (based on spread and over/under)
 
@@ -45,14 +46,14 @@ Halftime features:
 - Fumble percentage
 
 ### Confusion Matrix and Success Predicting Winner and Loser
-In the view_of_prediction_success.ipynb, you can see our statistical success. This is a screenshot of a confusion matrix from the notebook
+In the `view_of_prediction_success.ipynb`, you can see our finaln model's success. This is a screenshot of a confusion matrix from the notebook
 
 ### Model results on week 15 Jaguars at Titans on December 6th, 2018:
 ![Alt text](images/titans_jags.png?raw=true "Title")
 
-Code be found in TNF_prediction_12.6.18.ipynb. 
+Code be found in `TNF_prediction_12.6.18.ipynb`
 
 **To experiement with the halftime statistics on your own, use enter_statistics_and_place_bet.ipynb**
 
-*Note: This model has a small sample size, but has correctly beaten the spread predictions 6 times in 8 samples*
+*Note: This model has a small sample size in terms of bets placed. In 8 tests, the model has correctly beaten the spread predictions 6 times*
 
