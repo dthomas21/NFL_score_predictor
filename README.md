@@ -23,8 +23,8 @@ Ran compile_data.py in terminal with 2 command line inputs: filepath to play by 
 *profootballreference.com was also scarped to ensure accuracte statistics (in data folder). 1,341 games matched and used for modeling.
 
 ### Features:
-![Alt text](images/yppa.png?raw=true "Title")
 ![Alt text](images/ypra.png?raw=true "Title")
+![Alt text](images/yppa.png?raw=true "Title")
 
 As evidenced by the two graphs above, total points scored by a team and yards per pass attempt have more of a linear relationship than yards per rush attempt. After calculating the p-values of every feature, yards lost due to a sack and fumble percentage were dropped from the model (p-values of .227 and .578 respectively, in images folder).
 
