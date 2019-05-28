@@ -8,6 +8,7 @@ Using statistics from the first half of an NFL game, this model predicts the fin
 ### Datasets:
 Play-by-play data from 2009-2016:
 https://www.kaggle.com/maxhorowitz/nflplaybyplay2009to2016#NFL%20Play%20by%20Play%202009-2017%20(v4).csv
+
 NFL Betting Data:
 https://www.kaggle.com/tobycrabtree/nfl-scores-and-betting-data#spreadspoke_scores.csv
 
