@@ -1,4 +1,4 @@
-# NFL Final Score Predictor: What Can gthe 1st Half tell us about the final score?
+# NFL Final Score Predictor: What Can the 1st Half tell us about the final score?
 Using statistics from the first half of an NFL game, this model predicts the final score of an NFL game. The two use cases are 1) to predict the winner of the game at halftime and 2) to place a bet at halftime. Both use data trained from 1,341 historical games with mulitple features (see below) 
 
 ##### Univeristy of San Francisco MSDS: Intro to Machine Learning Project
