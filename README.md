@@ -55,5 +55,5 @@ Code be found in `TNF_prediction_12.6.18.ipynb`
 
 **To experiement with the halftime statistics on your own, use enter_statistics_and_place_bet.ipynb**
 
-*Note: This model has a small sample size in terms of bets placed. In 8 tests, the model has correctly beaten the spread predictions 6 times*
+*Note: This model has a small sample size in terms of bets placed. In 8 tests, the model has correctly beaten the spread 6 times*
 
